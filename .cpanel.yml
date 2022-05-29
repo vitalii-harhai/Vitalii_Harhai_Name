@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/h52032c/public_html/
-    - /bin/cp /home/h52032c/repositories/Vitalii_Harhai_Name/Start1.txt $DEPLOYPATH
+    - /bin/cp -R $DEPLOYPATH
